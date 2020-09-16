@@ -1,4 +1,4 @@
-#My Visual Code theme for C
+# My Visual Code theme for C
 ## What does it look like?
 ![theme](content/theme.gif)
 ## How do I set it up?
