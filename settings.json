@@ -1,0 +1,150 @@
+{
+    "window.zoomLevel": 1,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "workbench.colorCustomizations": {
+
+        /* ActivityBar */
+    
+        "activityBar.background": "#00022a5e",
+        "activityBar.inactiveForeground": "#452c99",
+        "activityBar.activeBorder": "#3c00ff",
+        "activityBar.foreground": "#b0a9f1",
+
+        /* Tabs */
+        
+        "tab.activeBackground": "#00022a",
+        "tab.activeBorderTop": "#b0a9f1",
+        "tab.hoverBorder": "#00022a",
+        "tab.activeBorder": "#00022a",
+        "tab.unfocusedHoverBackground": "#00022a",
+        "tab.unfocusedHoverBorder": "#b0a9f1",
+        "tab.unfocusedHoverForeground": "#f5f5f5",
+        "tab.activeForeground": "#f5f5f5",
+        "tab.border": "#00022a",
+
+        /* Breadcrumb */
+        
+        "breadcrumb.background": "#101010",
+        "breadcrumb.foreground": "#f5f5f5",
+        "breadcrumb.focusForeground": "#b0a9f1",
+        
+        /* TitleBar */
+
+        "titleBar.activeBackground": "#00022a5e",
+        "titleBar.border": "#00022a5e",
+        "titleBar.activeForeground": "#b0a9f1",
+
+        /* Editor */
+
+        "editor.selectionBackground": "#585c9c5e",
+        "editor.snippetTabstopHighlightBackground": "#585c9c5e",
+        "editor.background": "#101010",
+        "editor.lineHighlightBorder": "#101010"
+    }, 
+
+    /* for C */
+
+    "editor.tokenColorCustomizations": {
+        "numbers": "#ffffff",
+
+        "textMateRules": [
+            {
+                "scope": "variable.parameter",
+                "settings": {
+                    "foreground": "#7b7c7c",
+                }
+            }, 
+
+            {
+                "scope": [
+                            "entity.name.type",
+                            "keyword.other.typedef.cpp",
+                            "keyword.other.typedef.c"
+                        ],
+                "settings": {
+                    "foreground": "#02ec8ab6",
+                    "fontStyle": "italic"
+                }
+            }, 
+
+            {
+                "scope": "variable.other.property",
+                "settings": {
+                    "foreground": "#e2e2e2d7",
+                    "fontStyle": ""
+                }
+            },
+
+            {
+                "scope": [
+                            "entity.name.function.preprocessor", 
+                            "keyword.operator.sizeof.c"
+                         ], 
+                "settings": {
+                    "foreground": "#423cf588",
+                    "fontStyle": "italic bold"
+                }
+            },
+
+            {
+                "scope": [  
+                            "punctuation.section.block.begin.bracket.curly.c", 
+                            "punctuation.section.block.end.bracket.curly.c", 
+                            "punctuation.separator.delimiter.c", 
+                            "keyword.operator.increment.c",
+                            "keyword.operator.decrement.c", 
+                            "keyword.operator.assignment.c", 
+                            "keyword.operator.ternary.c",
+                            "keyword.operator.comparison.c",
+                            "keyword.operator.c",
+                            "keyword.operator.logical."
+                        ], 
+                "settings": {
+                    "foreground": "#89DDFF",
+                    "fontStyle": ""
+                }
+            }, 
+
+            {
+                "scope": [
+                            "keyword.control.directive.include.c", 
+                            "keyword.control.directive.define.c",
+                            "punctuation.definition.directive.c",
+                            "keyword.control.directive.include.cpp",
+                            "punctuation.definition.directive.cpp",
+                            "keyword.control.directive.define.cpp",
+                            "keyword.control.for.cpp",
+                            "keyword.control.if.cpp"
+                        ], 
+                "settings": {
+                    "foreground": "#be0aa0f8",
+                    "fontStyle": "bold"
+                }
+            }
+
+            {
+                "scope": "keyword.control.c",
+                "settings": {
+                    "foreground": "#ac3488",
+                    "fontStyle": "bold"
+                }
+            }
+        ]
+    },
+
+    "background.useDefault": false,
+    "background.customImages": [
+        "https://ih1.redbubble.net/image.11039571.8042/fc,550x550,black.jpg",
+    ], 
+
+    "background.style": {
+        "background-position": "92% 95%",
+        "background-size": "20%",
+        "opacity": 1
+    },
+
+    "background.loop": true,
+    "background.useFront": false,
+    "workbench.colorTheme": "Community Material Theme Ocean",
+}
+
